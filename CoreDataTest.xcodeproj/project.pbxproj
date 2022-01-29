@@ -14,6 +14,12 @@
 		F13CB23227A0E843002742F5 /* CoreDataTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13CB23127A0E843002742F5 /* CoreDataTestTests.swift */; };
 		F13CB23C27A0E843002742F5 /* CoreDataTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13CB23B27A0E843002742F5 /* CoreDataTestUITests.swift */; };
 		F13CB23E27A0E843002742F5 /* CoreDataTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13CB23D27A0E843002742F5 /* CoreDataTestUITestsLaunchTests.swift */; };
+		F13CB24C27A0EA73002742F5 /* CoreDataTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F13CB24A27A0EA73002742F5 /* CoreDataTest.xcdatamodeld */; };
+		F13CB24E27A0ED1D002742F5 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13CB24D27A0ED1D002742F5 /* DataController.swift */; };
+		F13CB25027A1EF82002742F5 /* AddCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13CB24F27A1EF82002742F5 /* AddCourseView.swift */; };
+		F13CB25227A1EFB4002742F5 /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13CB25127A1EFB4002742F5 /* CourseDetailView.swift */; };
+		F177FBF527A3564B00FB0C0D /* EditCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177FBF427A3564B00FB0C0D /* EditCourseView.swift */; };
+		F177FBF727A4950500FB0C0D /* AddHoleSpecView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177FBF627A4950500FB0C0D /* AddHoleSpecView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		F13CB23727A0E843002742F5 /* CoreDataTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13CB23B27A0E843002742F5 /* CoreDataTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTestUITests.swift; sourceTree = "<group>"; };
 		F13CB23D27A0E843002742F5 /* CoreDataTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F13CB24B27A0EA73002742F5 /* CoreDataTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataTest.xcdatamodel; sourceTree = "<group>"; };
+		F13CB24D27A0ED1D002742F5 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		F13CB24F27A1EF82002742F5 /* AddCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCourseView.swift; sourceTree = "<group>"; };
+		F13CB25127A1EFB4002742F5 /* CourseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailView.swift; sourceTree = "<group>"; };
+		F177FBF427A3564B00FB0C0D /* EditCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCourseView.swift; sourceTree = "<group>"; };
+		F177FBF627A4950500FB0C0D /* AddHoleSpecView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHoleSpecView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +108,13 @@
 			children = (
 				F13CB22027A0E843002742F5 /* CoreDataTestApp.swift */,
 				F13CB22227A0E843002742F5 /* ContentView.swift */,
+				F13CB25127A1EFB4002742F5 /* CourseDetailView.swift */,
+				F13CB24F27A1EF82002742F5 /* AddCourseView.swift */,
+				F177FBF627A4950500FB0C0D /* AddHoleSpecView.swift */,
+				F177FBF427A3564B00FB0C0D /* EditCourseView.swift */,
+				F13CB24D27A0ED1D002742F5 /* DataController.swift */,
 				F13CB22427A0E843002742F5 /* Assets.xcassets */,
+				F13CB24A27A0EA73002742F5 /* CoreDataTest.xcdatamodeld */,
 				F13CB22627A0E843002742F5 /* Preview Content */,
 			);
 			path = CoreDataTest;
@@ -258,7 +276,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F13CB22327A0E843002742F5 /* ContentView.swift in Sources */,
+				F13CB24E27A0ED1D002742F5 /* DataController.swift in Sources */,
+				F13CB25027A1EF82002742F5 /* AddCourseView.swift in Sources */,
+				F13CB24C27A0EA73002742F5 /* CoreDataTest.xcdatamodeld in Sources */,
+				F13CB25227A1EFB4002742F5 /* CourseDetailView.swift in Sources */,
 				F13CB22127A0E843002742F5 /* CoreDataTestApp.swift in Sources */,
+				F177FBF527A3564B00FB0C0D /* EditCourseView.swift in Sources */,
+				F177FBF727A4950500FB0C0D /* AddHoleSpecView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +609,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F13CB24A27A0EA73002742F5 /* CoreDataTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F13CB24B27A0EA73002742F5 /* CoreDataTest.xcdatamodel */,
+			);
+			currentVersion = F13CB24B27A0EA73002742F5 /* CoreDataTest.xcdatamodel */;
+			path = CoreDataTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F13CB21527A0E843002742F5 /* Project object */;
 }
